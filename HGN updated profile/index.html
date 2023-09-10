@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HNG task 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Profile</h1>
+      <div class="profile-card">
+        <div class="displayImg">
+          <img
+            src="img/evans.jpg"
+            data-testid="slackDisplayImage"
+            alt="EVANS__"
+            class="SlackDisplayImage"
+          />
+        </div>
+
+        <div class="slackUserName">
+          <p style="font-weight: 900">
+            Slack Username:<span data-testid="slackUserName">EVANS__</span>
+          </p>
+        </div>
+        <div class="displayDay">
+          <p>
+            Current Day of The Week
+            <span
+              data-testid="currentDayOfTheWeek"
+              id="currentDayOfTheWeek"
+            ></span>
+          </p>
+        </div>
+        <div class="displayTime">
+          <p>
+            Current UTC Time(in ms)
+            <span data-testid="currentUTCTime" id="currentUTCTime"></span>
+          </p>
+        </div>
+        <div class="track">
+          <p>Track: <span data-testid="myTrack">Front-end </span></p>
+        </div>
+        <div class="displayButton">
+          <a
+            href="https://github.com/Evans2206/Front-end-task-1-correction.git"
+            data-testid="githubURL"
+            ><button>View Source Code</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="task1.js"></script>
+  </body>
+</html>
